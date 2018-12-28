@@ -13,6 +13,7 @@
 		868B16C421D5F15C008A8DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868B16C321D5F15C008A8DBA /* Assets.xcassets */; };
 		868B16C721D5F15C008A8DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868B16C521D5F15C008A8DBA /* LaunchScreen.storyboard */; };
 		868B16CA21D5F15C008A8DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 868B16C921D5F15C008A8DBA /* main.m */; };
+		868B16D221D5F1BC008A8DBA /* NSObject+DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868B16D121D5F1BC008A8DBA /* NSObject+DeviceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		868B16C621D5F15C008A8DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		868B16C821D5F15C008A8DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		868B16C921D5F15C008A8DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		868B16D021D5F1BC008A8DBA /* NSObject+DeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeviceModel.h"; sourceTree = "<group>"; };
+		868B16D121D5F1BC008A8DBA /* NSObject+DeviceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeviceModel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				868B16C521D5F15C008A8DBA /* LaunchScreen.storyboard */,
 				868B16C821D5F15C008A8DBA /* Info.plist */,
 				868B16C921D5F15C008A8DBA /* main.m */,
+				868B16D021D5F1BC008A8DBA /* NSObject+DeviceModel.h */,
+				868B16D121D5F1BC008A8DBA /* NSObject+DeviceModel.m */,
 			);
 			path = DeviceMode;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				868B16BF21D5F15B008A8DBA /* ViewController.m in Sources */,
+				868B16D221D5F1BC008A8DBA /* NSObject+DeviceModel.m in Sources */,
 				868B16CA21D5F15C008A8DBA /* main.m in Sources */,
 				868B16BC21D5F15B008A8DBA /* AppDelegate.m in Sources */,
 			);
